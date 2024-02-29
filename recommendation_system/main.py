@@ -174,7 +174,7 @@ def calRecomendacao(usuario, base):
 
 
 
-def carregaMovieLens(path = 'C:/Users/emano/Documents/Projetos/data science/ml-100k'):
+def carregaMovieLens(path = 'C:/Users/emano/Documents/Projetos/data science/recommendation_system/ml-100k'):
     filmes = {}
     for line in open(path + '/u.item'):
         #obtendo somente os dois primeiros itens da linha
